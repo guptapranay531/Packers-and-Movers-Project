@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>Packers and Movers</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="quote.html">Get a Quote</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="dashboard.html">Dashboard</a></li>
+                <li><a href="login.html">Login/Register</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="dashboard">
+            <h2>Welcome, User!</h2>
+            <p>Here you can manage your account and view your moving requests.</p>
+            
+            <div class="account-info">
+                <h3>Account Information</h3>
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Email:</strong> john.doe@example.com</p>
+                <!-- You can add more user-specific information here -->
+            </div>
+            
+            <div class="requests">
+                <h3>Your Moving Requests</h3>
+                <ul>
+                    <li>Request 1: Local Moving - <em>In Progress</em></li>
+                    <li>Request 2: Packing Services - <em>Completed</em></li>
+                    <!-- You can dynamically generate these based on user data -->
+                </ul>
+            </div>
+            
+            <div class="actions">
+                <button onclick="logout()">Logout</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Packers and Movers. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
